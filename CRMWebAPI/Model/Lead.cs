@@ -18,5 +18,8 @@ namespace CRMWebAPI.Model
 
         [JsonProperty("subject")]
         public string Subject { get; set; }
+
+        [JsonProperty("accountName")]
+        public string AccountName { get; set; }
     }
 }
